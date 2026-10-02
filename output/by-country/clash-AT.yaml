@@ -25,20 +25,16 @@ proxies:
   servername: at.quattro-tech.ru
   client-fingerprint: random
 - name: 🇦🇹 奥地利 (Austria) 03 - xiaohe
-  server: 188.226.163.149
-  port: 443
+  server: 31.77.227.6
+  port: 52006
   udp: true
   type: vless
-  uuid: e29b6477-20bc-4254-aa75-787267eba4e5
+  uuid: bc659d88-a1e0-076c-a49a-7b51b26a7a7f
+  flow: xtls-rprx-vision
   tls: true
-  servername: ssat.darkgreeen.site
+  servername: bigdick.gamegrow.ru
   skip-cert-verify: false
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /2
-    headers:
-      Host: ssat.darkgreeen.site
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select

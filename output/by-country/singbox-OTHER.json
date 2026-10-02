@@ -5,27 +5,20 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "port2.axiomed.ir",
+      "tag": "🌐 其他地区 (Other) 01 - xiaohe",
+      "server": "104.18.42.98",
       "server_port": 443,
-      "uuid": "1e534c59-85c2-4042-a407-e491f68cb3a5",
+      "uuid": "4e4f1f70-5e56-4a76-bb9d-db087f4690c4",
       "tls": {
         "enabled": true,
-        "server_name": "kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev",
-        "insecure": false,
-        "alpn": [
-          "http/1.1"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
+        "server_name": "jp3.yohototo.top",
+        "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/vl/Z8Ag5xQbwmhIHsvyDj3?ed=2560",
+        "path": "/tyxyws",
         "headers": {
-          "Host": "kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev"
+          "Host": "jp3.yohototo.top"
         }
       }
     },
@@ -34,14 +27,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🌐 其他地区 (Other) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
