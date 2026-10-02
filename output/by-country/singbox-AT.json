@@ -23,7 +23,7 @@
         "server_name": "at.quattro-tech.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
@@ -35,14 +35,27 @@
     {
       "type": "vless",
       "tag": "🇦🇹 奥地利 (Austria) 03 - xiaohe",
-      "server": "31.77.227.6",
-      "server_port": 52006,
-      "uuid": "bc659d88-a1e0-076c-a49a-7b51b26a7a7f",
-      "flow": "xtls-rprx-vision",
+      "server": "188.226.163.149",
+      "server_port": 443,
+      "uuid": "e29b6477-20bc-4254-aa75-787267eba4e5",
       "tls": {
         "enabled": true,
-        "server_name": "bigdick.gamegrow.ru",
-        "insecure": false
+        "server_name": "ssat.darkgreeen.site",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/2",
+        "headers": {
+          "Host": "ssat.darkgreeen.site"
+        }
       }
     },
     {
